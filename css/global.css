@@ -450,6 +450,10 @@ b {
     border-width: 0 0 0 1px;
 }
 
+a.hamburger-icon svg {
+    stroke: #ffffff;
+}
+
 .mobile-menu.active {
     right: 0;
 }
@@ -2391,5 +2395,6 @@ body.mobile-menu-open {
     }
 
 }
+
 
 
