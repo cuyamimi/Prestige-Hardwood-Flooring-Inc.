@@ -1821,7 +1821,7 @@ body.mobile-menu-open {
     .hero-section .cta {
         display: none;
     }
-    .hero-section.cta.mobile-cta {
+    .hero-section .cta.mobile-cta {
         display: flex !important;
     }
     .services-section .services-wrapper {
@@ -2395,6 +2395,7 @@ body.mobile-menu-open {
     }
 
 }
+
 
 
 
