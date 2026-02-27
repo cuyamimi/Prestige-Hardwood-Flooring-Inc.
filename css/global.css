@@ -624,6 +624,10 @@ body.mobile-menu-open {
     line-height: 1.5em;
 }
 
+.hero-section .cta.mobile-cta {
+    display: none;
+}
+
 
 /* Flooring Form Styles */
 .flooring-form-container {
@@ -1810,11 +1814,11 @@ body.mobile-menu-open {
     .hero-section .column-half {
         width: 100%;
     }
-    .hero-section  .cta {
+    .hero-section .cta {
         display: none;
     }
-    .cta.mobile-cta {
-        display: flex;
+    .hero-section.cta.mobile-cta {
+        display: flex !important;
     }
     .services-section .services-wrapper {
         grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -2387,4 +2391,5 @@ body.mobile-menu-open {
     }
 
 }
+
 
